@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	font-family: Monospace;
+	font-size: 13px;
+	line-height: 24px;
+	overscroll-behavior: none;
+}
+
+a {
+	color: #aaffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#title {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; 
+	--interval: 3s;
+	display: block;
+	text-align:center;
+	font-size: 30px;
+	text-shadow: 
+		0 0 10px azure,
+		0 0 20px aqua,
+		0 0 40px dodgerblue,
+		0 0 80px blue;
+	will-change: filter, color;
+	filter: saturate(60%);
+	color: azure;
+	animation: flicker steps(100) var(--interval) 3s infinite;
+	font-family: Sriracha;
+}
+
+@keyframes flicker {
+  50% {
+	color: white;
+	filter: saturate(200%) hue-rotate(20deg);
+  }
+}
+
+@font-face {
+  font-family: 'Sriracha';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sriracha'), local('Sriracha-Regular'), url(https://fonts.gstatic.com/l/font?kit=0nkrC9D4IuYBgWcI9ObdXUTKkM_HujaLGzEbbpQe-hspqwAuMw6a-2E91Ve08STo4KyKbqBE0UZahFuCSNdhLCWGTrMUxtIS0pTPOALgjg3A&skey=4c47d248b5dc5112&v=v4) format('woff2');
+}
