@@ -14,8 +14,9 @@
 
 ## app
 利用HBuilder打包APP，效果如下：
-## 图标
+### 图标
 ![image](./img/earth-app-1.jpg)
-## 
+### 载入界面
 ![image](./img/earth-app-2.jpg)
+### 实际画面
 ![image](./img/earth-app-3.jpg)
