@@ -1,7 +1,8 @@
 # Three.js-Earth
+Computer Graphics Course Project -- implement a globe scene(include light and shadow effect)
 计算机图形学实验——实现地球仪（有光照，阴影）
 
-## 代码部分
+## Code
 ### index.html
 ![image](./README/code1.png)
 ### main.js
@@ -9,14 +10,14 @@
 ![image](./README/code2.png)
 ### 效果图
 ![image](./README/demo1.png)
-有放缩，旋转，移动功能：
+add zoom, rotate, move feature：
 ![image](./README/demo2.png)
 
-## app
+## App
 利用HBuilder打包APP，效果如下：
-### 图标
+### icon
 ![image](./img/earth-app-1.jpg)
-### 载入界面
+### load screen shot
 ![image](./img/earth-app-2.jpg)
-### 实际画面
+### actual picture
 ![image](./img/earth-app-3.jpg)
